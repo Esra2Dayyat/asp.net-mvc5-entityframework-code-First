@@ -1,0 +1,75 @@
+﻿
+@model amazon.Models.Customer
+@{ Layout = " ~/views/Shared/_Layout1.cshtml";
+    ViewBag.Title = "log in";
+}
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+
+    <div class="container">
+        <div class="row">
+            <div id="container-Login" class=" col-md-4  col-md-offset-4 ">
+                <div class="form-group">
+
+                    @Html.Label("your email ", htmlAttributes: new
+                    {
+                        @class = "control-label ",
+
+                    }).
+
+                    @Html.EditorFor(model => model.Email, new
+                    {
+                        htmlAttributes = new
+                        {
+                            @class = "form-control txtboccreateAcount"
+                        }
+                    })
+
+                </div>
+                <div class="form-group">
+
+                    @Html.Label("Password", htmlAttributes: new { @class = "control-label " })
+
+
+                    @Html.EditorFor(model => model.Password, new
+                    {
+                        htmlAttributes = new
+                        {
+                            @class = "form-control txtboccreateAcount"
+                        }
+                    })
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-3">
+
+                        <input type="submit" value="Sign in" class="btn btn-warning " />
+                    
+
+                    </div>
+               
+
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2">
+
+
+                        @Html.ActionLink("Create New Account", "Create", null, new { @class = "btn btn-default " })
+
+                    </div>
+
+                    </div>
+                    <div class="form-group">
+                        <label>@ViewBag.validatemassage </label>
+
+                    </div>
+                </div>
+        </div>
+    </div>
+}
+
+@Styles.Render("~/Content/Site.css")
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

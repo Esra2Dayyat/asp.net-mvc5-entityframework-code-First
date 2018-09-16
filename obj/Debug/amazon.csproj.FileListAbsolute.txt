@@ -1,0 +1,98 @@
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\ApplicationInsights.config
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\amazon.dll.config
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\amazon.dll
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\amazon.pdb
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\Antlr3.Runtime.dll
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\EntityFramework.dll
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\EntityFramework.SqlServer.dll
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\Microsoft.AI.Web.dll
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\Microsoft.ApplicationInsights.dll
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\Newtonsoft.Json.dll
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\System.Web.Helpers.dll
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\System.Web.Mvc.dll
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\System.Web.Optimization.dll
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\System.Web.Razor.dll
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\System.Web.WebPages.Deployment.dll
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\System.Web.WebPages.dll
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\System.Web.WebPages.Razor.dll
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\WebGrease.dll
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\EntityFramework.xml
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\EntityFramework.SqlServer.xml
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\System.Web.Helpers.xml
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\System.Web.Mvc.xml
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\System.Web.Optimization.xml
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\System.Web.Razor.xml
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\System.Web.WebPages.xml
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\System.Web.WebPages.Deployment.xml
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\System.Web.WebPages.Razor.xml
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\Antlr3.Runtime.pdb
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\Newtonsoft.Json.xml
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\Microsoft.ApplicationInsights.xml
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\m.dayyat\Desktop\amazon\amazon\bin\Microsoft.AI.Web.xml
+C:\Users\m.dayyat\Desktop\amazon\amazon\obj\Debug\amazon.csproj.CoreCompileInputs.cache
+C:\Users\m.dayyat\Desktop\amazon\amazon\obj\Debug\amazon.dll
+C:\Users\m.dayyat\Desktop\amazon\amazon\obj\Debug\amazon.pdb
+C:\Users\m.dayyat\Desktop\amazon\amazon\obj\Debug\amazon.csprojResolveAssemblyReference.cache
+C:\Users\m.dayyat\Desktop\amazon\amazon\obj\Debug\amazon.Migrations.init.resources
+C:\Users\m.dayyat\Desktop\amazon\amazon\obj\Debug\amazon.csproj.GenerateResource.Cache
+C:\Users\m.dayyat\Desktop\amazon\amazon\obj\Debug\amazon.Migrations.init1.resources
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\ApplicationInsights.config
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\amazon.dll.config
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\amazon.dll
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\amazon.pdb
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\Antlr3.Runtime.dll
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\EntityFramework.dll
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\EntityFramework.SqlServer.dll
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\Microsoft.AI.Web.dll
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\Microsoft.ApplicationInsights.dll
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\Newtonsoft.Json.dll
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\System.Web.Helpers.dll
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\System.Web.Mvc.dll
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\System.Web.Optimization.dll
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\System.Web.Razor.dll
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\System.Web.WebPages.Deployment.dll
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\System.Web.WebPages.dll
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\System.Web.WebPages.Razor.dll
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\WebGrease.dll
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\EntityFramework.xml
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\EntityFramework.SqlServer.xml
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\System.Web.Helpers.xml
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\System.Web.Mvc.xml
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\System.Web.Optimization.xml
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\System.Web.Razor.xml
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\System.Web.WebPages.xml
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\System.Web.WebPages.Deployment.xml
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\System.Web.WebPages.Razor.xml
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\Antlr3.Runtime.pdb
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\Newtonsoft.Json.xml
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\Microsoft.ApplicationInsights.xml
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\bin\Microsoft.AI.Web.xml
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\obj\Debug\amazon.Migrations.init.resources
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\obj\Debug\amazon.Migrations.init1.resources
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\obj\Debug\amazon.csproj.GenerateResource.cache
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\obj\Debug\amazon.csproj.CoreCompileInputs.cache
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\obj\Debug\amazon.csproj.CopyComplete
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\obj\Debug\amazon.dll
+C:\Users\NSIT-05\Desktop\amazon project\amazon project\amazon\obj\Debug\amazon.pdb

@@ -1,0 +1,166 @@
+﻿
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+
+/* Set width on the form input elements since they're 100% wide by default */
+select,
+textarea {
+    max-width: 280px;
+}
+
+.amazon-logo {
+    width: 75px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.divheader {
+    margin-top: 15px;
+    width: auto;
+    margin-right: 38px;
+}
+
+.input-group {
+    width: 700px;
+}
+
+.form-control {
+    width: 105%;
+}
+
+.input-group-btn {
+    width: 2px;
+}
+
+.glyphicon-search {
+    margin-top: -2px;
+}
+
+h3 {
+    margin-top: 2px;
+    color: white;
+    font-family: Angsana New;
+}
+
+div#LblShopdealis h2 {
+    margin-top: 13px;
+    color: white;
+    font-family: Angsana New;
+    padding-left: 0px;
+}
+
+.glyphicon-search {
+    width: 55px;
+    height: 35px;
+}
+
+.listItemNavbar {
+    color: white;
+    font-size: large;
+}
+
+.multi-column-dropdown a {
+    color: black;
+    padding: 0px;
+}
+
+.btndepartmen {
+    color: white;
+    font-family: 'Angsana New';
+    background-color: transparent;
+}
+
+.dropdown-menu.columns-2 {
+    min-width: 400px;
+}
+
+.actioninksignin {
+    margin: 15px 120px;
+}
+
+.actioninksignup {
+    margin-left: 80px;
+}
+
+
+
+hr {
+    border-right: solid;
+    border-color: black
+}
+
+.Lblfirstrowbottom {
+    color: white;
+    font-size: large;
+}
+
+
+.rowfooter {
+    font-size: large;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+}
+
+    .rowfooter h3 {
+        color: white;
+        margin-left: 40px;
+        font-size: xx-large
+    }
+
+.listitemnavigationfooter,
+.listitemnavigationfooter a {
+    list-style-type: none;
+    color: white;
+}
+
+.slide {
+    margin-left: 30px;
+    float: left;
+    width: 150px;
+    height: 270px;
+   
+}
+
+.slider {
+  
+    width: 95%;
+   
+    overflow-x: scroll;
+    margin-bottom: 50px;
+}
+
+.holder {
+    width: 150%;
+ 
+}
+
+.txtboccreateAcount {
+    width: 75%;
+}
+
+.form-group {
+    margin-left: 25px;
+}
+
+div#container-create, div#container-Login {
+    margin-top: 25px;
+    width: 400px;
+    border: solid;
+}
+
+
+    div#container-Login .form-group {
+        margin-top: 25px;
+    }
+
+table , tr , td {
+    padding:25px ;
+    margin:50px ;
+}

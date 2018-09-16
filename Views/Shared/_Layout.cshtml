@@ -1,0 +1,269 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link rel="stylesheet" type="text/css" href="~/Content/css" />
+
+
+    @Styles.Render("~/Content/css")
+
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <div class="navbar navbar-inverse ">
+        <div class="container">
+
+
+            <div id="navbarheader" class="row">
+
+                <div class="col-lg-2 col-md-2  divheader">
+
+                    <img src="~/images/amazon-logo.jpg" class="amazon-logo" />
+                </div>
+                <div class="col-lg-8  col-md-8 divheader">
+
+                    <div class="input-group dropdown">
+
+
+                        <span class=" input-group-btn  btn-default dropdown-toggle btn-xs" type="button" data-toggle="dropdown">
+                            All
+                            <i class="caret"></i>
+
+                        </span>
+
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">
+                                    Amazon Devices
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Amazon videos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    APPs && Games
+                                </a>
+                            </li>
+                        </ul>
+
+
+                        <input id="txtsearch" type="search" class="form-control" placeholder="search here ......">
+                        <span class="input-group-btn">
+                            <button class="glyphicon glyphicon-search btn btn-warning "></button>
+                        </span>
+
+
+                    </div>
+                </div>
+                <div id="LblShopdealis" class="col-lg-2  col-md-2  ">
+
+                    <h2> Shop Deals the Day </h2>
+
+
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-8">
+                    <ul class="nav navbar-nav">
+
+                        <li class="dropdown listItemNavbar">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                                Department
+
+                                <b class="caret"> </b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a data-toggle="dropdown" role="button" class="dropdown-toggle">prim video </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-header"> <a href="#"> Prime Video</a></li>
+                                        <li class=""> All video </li>
+                                        <li>include with prime  </li>
+                                        <li> Amazon Channels </li>
+                                    </ul>
+                                </li>
+                                <li> <a>Amazon Music </a></li>
+                                <li> <a>Fire Tv</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="listItemNavbar"><a href="#"> Your Amazon.com</a></li>
+                        <li class="listItemNavbar"><a a href="#"> Today's Deals</a> </li>
+                        <li class="listItemNavbar"><a a href="~/Views/Customers/complaint.cshtml"> Make complaint</a> </li>
+                        @if(Session["iduser"]!= null)
+                        {
+                        <li class="listItemNavbar">@Html.ActionLink("My Account", "Update_account","Customers", new {@id = Session["iduser"] }, null) </li>
+                        } 
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="listItemNavbar dropdown">
+                            <a data-toggle="dropdown" href="#">
+                                Hello $ Sign in <br />
+                                Account LIST
+                            </a>
+                            <ul class="dropdown-menu   multi-column columns-2">
+                                <li>
+                                    <span class=" actioninksignin">
+                                        @if (Session["iduser"] == null)
+
+                                        {
+
+                                    @Html.ActionLink("Sign In", "SignIn", "Customers",null , new { @class = " btn  btn-warning btn-lg  " })
+                                        }
+                                        else
+                                        {
+                                    @Html.ActionLink("Log Out", "Signup", "Customers", null, new { @class = " btn  btn-warning btn-lg  " })
+
+                                        }
+                                    </span>
+                                    <hr />
+
+
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <ul class="multi-column-dropdown">
+                                                <li><a href="#"><strong> your list</strong></a></li>
+                                                <li><a href="#">create list</a></li>
+                                                <li><a href="#">  Find  a Gift</a></li>
+
+                                                <li><a href="#">Save Item From Web</a></li>
+                                                <li><a href="#">Frients & family Gifts </a></li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <ul class="multi-column-dropdown">
+                                                <li><a href="#"> <strong>Your Account</strong></a></li>
+                                                <li><a href="#">your Orders </a></li>
+                                                <li><a href="#">Your List</a></li>
+
+                                                <li><a href="#">Your Save Item </a></li>
+                                                <li><a href="#">Your Service Requests</a></li>
+
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+
+                        <li class="listItemNavbar">
+                            @Html.ActionLink("Orders", "Details", "Orders", new { @id = Session["iduser"] } , null)
+                        </li>
+                       
+                       
+
+                    </ul>
+
+                </div>
+
+
+            </div>
+            <div  class="row">
+
+                <div class="col-md-3">
+
+                    @ViewBag.name ;
+                </div>
+
+            </div>
+          
+
+
+
+        </div>
+    </div>
+
+
+
+
+    <div class="body-content ">
+        @RenderBody()
+
+    </div>
+
+    <footer>
+        <div class="navbar navbar-inverse">
+            <div class="container" id="container_footer">
+                <div class="row rowfooter">
+
+
+
+
+
+                    <nav id="firstrowooter" class="col-lg-2 col-lg-offset-5">
+                        <a class="Lblfirstrowbottom" href="#navbarheader"> Back To Tap</a>
+                    </nav>
+
+                </div>
+
+
+                <div id="secondtrowfooter" class="row rowfooter ">
+
+                    <nav class="col-md-4">
+                        <h3> Get TO Know us</h3>
+                        <ul class="listitemnavigationfooter">
+                            <li> <a href="#">  Careers</a></li>
+                            <li> <a href="#">  About Amazon</a></li>
+                            <li> <a href="#"> Amazon Device</a></li>
+
+
+                        </ul>
+
+
+                    </nav>
+
+
+
+                    <nav class="col-md-4">
+                        <h3> Make Money with Us</h3>
+                        <ul class="listitemnavigationfooter">
+                            <li> <a href="#">  Sell on Amazon </a></li>
+                            <li> <a href="#"> Sell Yourr services on Amazon </a></li>
+                            <li> <a href="#">Sell Your App on Amazon </a></li>
+
+
+                        </ul>
+
+
+                    </nav>
+                    <nav class="col-md-4">
+                        <h3> Lets Up Help You </h3>
+                        <ul class="listitemnavigationfooter">
+                            <li> <a href="#"> Your Account </a></li>
+                            <li> <a href="#">  yYour Orders </a></li>
+                            <li> <a href="#"> Shipping Rates &Aacute; Policies</a></li>
+
+
+                        </ul>
+
+
+                    </nav>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </footer>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>

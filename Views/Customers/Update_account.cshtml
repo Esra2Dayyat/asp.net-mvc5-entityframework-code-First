@@ -1,0 +1,88 @@
+﻿@model amazon.Models.Customer
+
+@{
+    ViewBag.Title = "Update_account";
+}
+
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.Customerid)
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Namee, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-4">
+            @Html.EditorFor(model => model.Namee, new { htmlAttributes = new { @class = "form-control", @readonly = true } })
+            @Html.ValidationMessageFor(model => model.Namee, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+
+
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-4">
+            @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ConfirmPassword, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-4">
+            @Html.EditorFor(model => model.ConfirmPassword, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-4">
+            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control col-md-6", @readonly = true } })
+            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+  </div>
+        </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.AdressId, "Adress", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-4">
+            @Html.DropDownListFor(model => model.AdressId, ViewBag.Adress as IEnumerable<SelectListItem>
+             ,  htmlAttributes : new { @class = "form-control col-md-4 " } )
+
+            @Html.ValidationMessageFor(model => model.AdressId, "", new { @class = "text-danger" })
+
+        </div>
+    </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Phone, "Your Phone", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-4">
+                @Html.TextBoxFor(model => model.Phone, null, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-4">
+                <input type="submit" value="Update" class="btn btn-default" />
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-4">
+
+
+                @Html.ActionLink("Back to Home", "Index", "Home", null, new { @class = "btn btn-default" })
+            </div>
+
+        </div>
+    </div>
+}
+
+@Styles.Render("~/Content/Site.css")

@@ -1,0 +1,94 @@
+﻿@using amazon.Models
+@model  IEnumerable<Order>
+
+
+@{
+    ViewBag.Title = "Details";
+}
+
+
+<div style=" margin:30px">
+    <p> Welcome . The following list contains all your purchase</p>
+    <br />
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-offset-4 col-md-1">
+
+            @Html.Label("totalprice", " Total ", new
+            {
+                @class = "Label-control  ",
+                @for = "txttotalprice",
+                Style = "font-size:x-large"
+            })
+
+        </div>
+        <div class="col-md-3">
+            @Html.TextBox("txttotalprice", ViewData["totalsum"], new { @class = "form-control" })
+
+
+        </div>
+
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.GetOrder.Select_Order)
+
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.GetOrder.Price)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.shipToAdress.City)
+
+                </th>
+                <th>
+
+                    @Html.DisplayNameFor(model => model.OrderDate)
+
+                </th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+
+                        @Html.DisplayFor(model => item.GetOrder.Select_Order)
+
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(model => item.GetOrder.Price)
+                    </td>
+
+
+                    <td>
+
+                        @Html.DisplayFor(model => item.shipToAdress.City)
+                    </td>
+                    <td>
+
+                        @Html.DisplayFor(model => item.OrderDate)
+
+                    </td>
+
+
+
+                </tr>
+            }
+        </table>
+        <div class="col-md-3 col-lg-offset-5">
+            @Html.ActionLink("Bach to Home " ,"Index", "Home",null ,new { @class="btn btn-warning"} )
+        </div> 
+        <br />
+        <br />
+
+
+    </div>
+</div>
+
+
+
+
+
